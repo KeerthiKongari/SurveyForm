@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>SurveyForm</title>
+    </head>
+    <body >
+        <div id="heading">
+            WebDevelopment BootCamp SurveyForm
+        </div>
+        <div id="caption">
+            Thank you for taking the time to help us improve the platform
+        </div>
+        <div class="container">
+            <form class="form">
+                <div class="div">
+                    <label for="userName" class="label">Name</label><br>
+                    <input type="text" name="userName" id="userName" required>
+                </div>
+
+                <div class="div">
+                    <label for="userEmail" class="label">Email</label><br>
+                    <input type="text" name="userEmail" id="userEmail" required>
+                </div>
+
+                <div class="div">
+                    <label for="userAge" class="label">Age</label><br>
+                    <input type="text" name="userAge" id="userAge" required>
+                </div>
+ 
+                <div class="div">
+                    <label class="label">Which option best describes your current role?</label><br>
+                    <select class="label">
+                        <option>Select Current role</option>
+                        <option>Student</option>
+                        <option>Fulltime learner</option>
+                        <option>Fulltime job</option>
+                        <option>prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="div">
+                   <label class="label">Would you recommend Bootcamp to a friend?</label><br>
+                   <input type="radio" id="recommend" name="recommend"><label>Definitly</label><br>
+                   <input type="radio" id="recommend" name="recommend"><label>Maybe</label><br>
+                   <input type="radio" id="recommend" name="recommend"><label>Not Sure</label><br>
+                </div>
+
+                <div class="div">
+                    <label class="label">What is your favorite feature of this Bootcamp</label><br>
+                    <select class="label">
+                       <option>Challenges</option>
+                       <option>Projects</option>
+                       <option>Community</option>
+                       <option>Open Source</option>
+                    </select>
+                </div>
+                <div class="div">
+                    <label class="label">What would you like to see improved? (Check all that apply)</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Front-End Projects</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Back-end Projects</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Data Visualization</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Challenges</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Open Source Community</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Git Helper rooms</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Videos</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>City Meetups</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Wiki</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Forum</label><br>
+                    <input type="checkbox" name="improve" id="improve"><label>Additionals</label><br>
+                </div>
+                <div class="div">
+                    <label class="label">Any comments or suggestions?</label><br>
+                    <textarea name="suggestions" id="suggestions" rows="5" cols="10"></textarea>
+                </div>
+
+                <div class="div">
+                    <button type="Submit" name="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
