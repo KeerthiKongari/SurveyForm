@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="style.css">
         <title>SurveyForm</title>
     </head>
-    <body >
+    <body class="body" >
         <div id="heading">
             WebDevelopment BootCamp SurveyForm
         </div>
@@ -14,24 +14,23 @@
         <div class="container">
             <form class="form">
                 <div class="div">
-                    <label for="userName" class="label">Name</label><br>
-                    <input type="text" name="userName" id="userName" required>
+                    <label for="userName" class="label" >Name</label><br>
+                    <input type="text" name="userName" id="userName" placeholder="userName" required>
                 </div>
 
                 <div class="div">
                     <label for="userEmail" class="label">Email</label><br>
-                    <input type="text" name="userEmail" id="userEmail" required>
+                    <input type="text" name="userEmail" id="userEmail"  placeholder="userEmail" required>
                 </div>
 
                 <div class="div">
                     <label for="userAge" class="label">Age</label><br>
-                    <input type="text" name="userAge" id="userAge" required>
+                    <input type="text" name="userAge" id="userAge"  placeholder="userAge" required>
                 </div>
  
                 <div class="div">
                     <label class="label">Which option best describes your current role?</label><br>
-                    <select class="label">
-                        <option>Select Current role</option>
+                    <select class="label"  placeholder="select">
                         <option>Student</option>
                         <option>Fulltime learner</option>
                         <option>Fulltime job</option>
@@ -48,8 +47,8 @@
                 </div>
 
                 <div class="div">
-                    <label class="label">What is your favorite feature of this Bootcamp</label><br>
-                    <select class="label">
+                    <label class="label" >What is your favorite feature of this Bootcamp</label><br>
+                    <select class="label" placeholder="select one">
                        <option>Challenges</option>
                        <option>Projects</option>
                        <option>Community</option>
@@ -71,8 +70,8 @@
                     <input type="checkbox" name="improve" id="improve"><label>Additionals</label><br>
                 </div>
                 <div class="div">
-                    <label class="label">Any comments or suggestions?</label><br>
-                    <textarea name="suggestions" id="suggestions" rows="5" cols="10"></textarea>
+                    <label class="label" >Any comments or suggestions?</label><br>
+                    <textarea name="suggestions" id="suggestions" rows="5" cols="10" placeholder="enter your comments here.."></textarea>
                 </div>
 
                 <div class="div">
